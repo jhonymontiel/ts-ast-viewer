@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./editor.worker.js"
   },
   {
-    "revision": "dfb92d610dd8e2f4650d90f08f16d069",
+    "revision": "7ec2cc6ee2fec2f5b136dc2ca8ea0620",
     "url": "./index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.3db59db9.chunk.css"
   },
   {
-    "revision": "38d2cc0b05af79d3a424",
+    "revision": "c2b2626881d5307d40c7",
     "url": "./static/css/main.9712c821.chunk.css"
   },
   {
@@ -248,12 +248,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/25.500c4f67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "386c956da9f499550800",
-    "url": "./static/js/26.e64665c8.chunk.js"
+    "revision": "1c444229fa08d2b24f30",
+    "url": "./static/js/26.8493e2ee.chunk.js"
   },
   {
     "revision": "7ec01595672f75e83fd81b41f132f4c1",
-    "url": "./static/js/26.e64665c8.chunk.js.LICENSE.txt"
+    "url": "./static/js/26.8493e2ee.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5fb9f62bdd5d96c28832",
@@ -348,8 +348,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/47.0c25ba80.chunk.js"
   },
   {
-    "revision": "295b813ccd3608d051be",
-    "url": "./static/js/48.4721e667.chunk.js"
+    "revision": "52f2130d16b487d3e2d4",
+    "url": "./static/js/48.a8a7b729.chunk.js"
   },
   {
     "revision": "f051bfc39b64f34b946f",
@@ -576,12 +576,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/99.7b6d4d11.chunk.js"
   },
   {
-    "revision": "38d2cc0b05af79d3a424",
-    "url": "./static/js/main.47eb3a0f.chunk.js"
+    "revision": "c2b2626881d5307d40c7",
+    "url": "./static/js/main.ef6ed3ac.chunk.js"
   },
   {
-    "revision": "dc1e7309ff9ff676adfc",
-    "url": "./static/js/runtime-main.69b7f4ec.js"
+    "revision": "85fb3189b6fea7faa861",
+    "url": "./static/js/runtime-main.75c0b2ec.js"
   },
   {
     "revision": "a609dc0f334a7d4e64205247c4e8b97c",
