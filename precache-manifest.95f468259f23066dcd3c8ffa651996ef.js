@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./editor.worker.js"
   },
   {
-    "revision": "90d319f8f36b3aae11091f143bbeb77d",
+    "revision": "e928aa7a0d1c4f98ed390a82c555f9bd",
     "url": "./index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/3.e133952d.chunk.css"
   },
   {
-    "revision": "c6c952dbc44eb68ec625",
+    "revision": "fc30e63e13c17518440e",
     "url": "./static/css/main.1ccc8c51.chunk.css"
   },
   {
@@ -336,12 +336,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/31.3f2bf0bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8be3ff766b117949c5f7",
-    "url": "./static/js/32.8fa1fd32.chunk.js"
+    "revision": "dfc0c75fae5ff119a9d7",
+    "url": "./static/js/32.4cfb85ed.chunk.js"
   },
   {
     "revision": "7ec01595672f75e83fd81b41f132f4c1",
-    "url": "./static/js/32.8fa1fd32.chunk.js.LICENSE.txt"
+    "url": "./static/js/32.4cfb85ed.chunk.js.LICENSE.txt"
   },
   {
     "revision": "b75ede917c37f61fa28e",
@@ -444,8 +444,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/55.eb534c31.chunk.js"
   },
   {
-    "revision": "d6e5c1128c10a4a71c9a",
-    "url": "./static/js/56.16ce9492.chunk.js"
+    "revision": "79e0e6d9f646b58ee3c2",
+    "url": "./static/js/56.26ad448f.chunk.js"
   },
   {
     "revision": "137123beb2bff7a959c7",
@@ -632,12 +632,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/99.81c046b9.chunk.js"
   },
   {
-    "revision": "c6c952dbc44eb68ec625",
-    "url": "./static/js/main.522ffeb7.chunk.js"
+    "revision": "fc30e63e13c17518440e",
+    "url": "./static/js/main.4051d084.chunk.js"
   },
   {
-    "revision": "2236df477aa14ca6eb64",
-    "url": "./static/js/runtime-main.16804871.js"
+    "revision": "0a0fa5c5b25e59165aa4",
+    "url": "./static/js/runtime-main.cbc9eec2.js"
   },
   {
     "revision": "223490291528837216424bf892a36810",
