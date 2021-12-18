@@ -561,6 +561,19 @@
     }
     return (callback) => setTimeout(callback);
   })();
+  var setImmediate = function defineSetImmediate() {
+    if (globals.setImmediate) {
+      return globals.setImmediate.bind(globals);
+    }
+    if (typeof globals.postMessage === "function" && !globals.importScripts) {
+      return setTimeout0;
+    }
+    if (typeof (nodeProcess === null || nodeProcess === void 0 ? void 0 : nodeProcess.nextTick) === "function") {
+      return nodeProcess.nextTick.bind(nodeProcess);
+    }
+    const _promise = Promise.resolve();
+    return (callback) => _promise.then(callback);
+  }();
 
   // ../node_modules/monaco-editor/esm/vs/base/common/stopwatch.js
   var hasPerformanceNow = globals.performance && typeof globals.performance.now === "function";
@@ -14165,7 +14178,7 @@
 })();
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
- * Version: 0.31.0(252e010eb73ddc2fa1a37c1dade7bf35d87106cd)
+ * Version: 0.31.1(337587859b1c171314b40503171188b6cea6a32a)
  * Released under the MIT license
  * https://github.com/microsoft/monaco-editor/blob/main/LICENSE.txt
  *-----------------------------------------------------------------------------*/

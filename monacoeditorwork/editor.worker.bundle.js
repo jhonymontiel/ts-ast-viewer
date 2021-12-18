@@ -561,6 +561,19 @@
     }
     return (callback) => setTimeout(callback);
   })();
+  var setImmediate = function defineSetImmediate() {
+    if (globals.setImmediate) {
+      return globals.setImmediate.bind(globals);
+    }
+    if (typeof globals.postMessage === "function" && !globals.importScripts) {
+      return setTimeout0;
+    }
+    if (typeof (nodeProcess === null || nodeProcess === void 0 ? void 0 : nodeProcess.nextTick) === "function") {
+      return nodeProcess.nextTick.bind(nodeProcess);
+    }
+    const _promise = Promise.resolve();
+    return (callback) => _promise.then(callback);
+  }();
 
   // ../node_modules/monaco-editor/esm/vs/base/common/stopwatch.js
   var hasPerformanceNow = globals.performance && typeof globals.performance.now === "function";
